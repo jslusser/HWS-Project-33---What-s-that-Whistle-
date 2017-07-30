@@ -12,6 +12,7 @@
 		94D7AB811F2E1F9F000EF68C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D7AB7F1F2E1F9F000EF68C /* Main.storyboard */; };
 		94D7AB831F2E1F9F000EF68C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94D7AB821F2E1F9F000EF68C /* Assets.xcassets */; };
 		94D7AB861F2E1F9F000EF68C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D7AB841F2E1F9F000EF68C /* LaunchScreen.storyboard */; };
+		94D7AB8E1F2E2242000EF68C /* RecordWhistleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7AB8D1F2E2242000EF68C /* RecordWhistleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		94D7AB821F2E1F9F000EF68C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94D7AB851F2E1F9F000EF68C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94D7AB871F2E1F9F000EF68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94D7AB8D1F2E2242000EF68C /* RecordWhistleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordWhistleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				94D7AB7B1F2E1F9F000EF68C /* AppDelegate.swift */,
 				94D7AB7D1F2E1F9F000EF68C /* ViewController.swift */,
+				94D7AB8D1F2E2242000EF68C /* RecordWhistleViewController.swift */,
 				94D7AB7F1F2E1F9F000EF68C /* Main.storyboard */,
 				94D7AB821F2E1F9F000EF68C /* Assets.xcassets */,
 				94D7AB841F2E1F9F000EF68C /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				94D7AB7E1F2E1F9F000EF68C /* ViewController.swift in Sources */,
 				94D7AB7C1F2E1F9F000EF68C /* AppDelegate.swift in Sources */,
+				94D7AB8E1F2E2242000EF68C /* RecordWhistleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +306,7 @@
 				94D7AB8C1F2E1F9F000EF68C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
