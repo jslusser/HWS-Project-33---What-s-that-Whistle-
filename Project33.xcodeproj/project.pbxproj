@@ -7,23 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		94D7AB7C1F2E1F9F000EF68C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7AB7B1F2E1F9F000EF68C /* AppDelegate.swift */; };
-		94D7AB7E1F2E1F9F000EF68C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7AB7D1F2E1F9F000EF68C /* ViewController.swift */; };
 		94D7AB811F2E1F9F000EF68C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D7AB7F1F2E1F9F000EF68C /* Main.storyboard */; };
 		94D7AB831F2E1F9F000EF68C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94D7AB821F2E1F9F000EF68C /* Assets.xcassets */; };
 		94D7AB861F2E1F9F000EF68C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D7AB841F2E1F9F000EF68C /* LaunchScreen.storyboard */; };
-		94D7AB8E1F2E2242000EF68C /* RecordWhistleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7AB8D1F2E2242000EF68C /* RecordWhistleViewController.swift */; };
+		94EA450A1F313715003E2034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EA45081F313715003E2034 /* AppDelegate.swift */; };
+		94EA450B1F313715003E2034 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EA45091F313715003E2034 /* ViewController.swift */; };
+		94EA45131F313728003E2034 /* RecordWhistleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EA450C1F313728003E2034 /* RecordWhistleViewController.swift */; };
+		94EA45141F313728003E2034 /* SelectGenreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EA450D1F313728003E2034 /* SelectGenreViewController.swift */; };
+		94EA45151F313728003E2034 /* AddCommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EA450E1F313728003E2034 /* AddCommentsViewController.swift */; };
+		94EA45161F313728003E2034 /* SubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EA450F1F313728003E2034 /* SubmitViewController.swift */; };
+		94EA45171F313728003E2034 /* Whistle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EA45101F313728003E2034 /* Whistle.swift */; };
+		94EA45181F313728003E2034 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EA45111F313728003E2034 /* ResultsViewController.swift */; };
+		94EA45191F313728003E2034 /* MyGenresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EA45121F313728003E2034 /* MyGenresViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		94D7AB781F2E1F9F000EF68C /* Project33.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project33.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		94D7AB7B1F2E1F9F000EF68C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		94D7AB7D1F2E1F9F000EF68C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		94D7AB801F2E1F9F000EF68C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94D7AB821F2E1F9F000EF68C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94D7AB851F2E1F9F000EF68C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94D7AB871F2E1F9F000EF68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		94D7AB8D1F2E2242000EF68C /* RecordWhistleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordWhistleViewController.swift; sourceTree = "<group>"; };
+		94EA45071F313715003E2034 /* Project33.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Project33.entitlements; sourceTree = "<group>"; };
+		94EA45081F313715003E2034 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94EA45091F313715003E2034 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94EA450C1F313728003E2034 /* RecordWhistleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordWhistleViewController.swift; sourceTree = "<group>"; };
+		94EA450D1F313728003E2034 /* SelectGenreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectGenreViewController.swift; sourceTree = "<group>"; };
+		94EA450E1F313728003E2034 /* AddCommentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCommentsViewController.swift; sourceTree = "<group>"; };
+		94EA450F1F313728003E2034 /* SubmitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitViewController.swift; sourceTree = "<group>"; };
+		94EA45101F313728003E2034 /* Whistle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Whistle.swift; sourceTree = "<group>"; };
+		94EA45111F313728003E2034 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		94EA45121F313728003E2034 /* MyGenresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyGenresViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +69,20 @@
 		94D7AB7A1F2E1F9F000EF68C /* Project33 */ = {
 			isa = PBXGroup;
 			children = (
-				94D7AB7B1F2E1F9F000EF68C /* AppDelegate.swift */,
-				94D7AB7D1F2E1F9F000EF68C /* ViewController.swift */,
-				94D7AB8D1F2E2242000EF68C /* RecordWhistleViewController.swift */,
+				94EA45071F313715003E2034 /* Project33.entitlements */,
+				94EA45081F313715003E2034 /* AppDelegate.swift */,
+				94EA45091F313715003E2034 /* ViewController.swift */,
 				94D7AB7F1F2E1F9F000EF68C /* Main.storyboard */,
 				94D7AB821F2E1F9F000EF68C /* Assets.xcassets */,
 				94D7AB841F2E1F9F000EF68C /* LaunchScreen.storyboard */,
 				94D7AB871F2E1F9F000EF68C /* Info.plist */,
+				94EA450C1F313728003E2034 /* RecordWhistleViewController.swift */,
+				94EA450D1F313728003E2034 /* SelectGenreViewController.swift */,
+				94EA450E1F313728003E2034 /* AddCommentsViewController.swift */,
+				94EA450F1F313728003E2034 /* SubmitViewController.swift */,
+				94EA45101F313728003E2034 /* Whistle.swift */,
+				94EA45111F313728003E2034 /* ResultsViewController.swift */,
+				94EA45121F313728003E2034 /* MyGenresViewController.swift */,
 			);
 			path = Project33;
 			sourceTree = "<group>";
@@ -140,9 +160,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94D7AB7E1F2E1F9F000EF68C /* ViewController.swift in Sources */,
-				94D7AB7C1F2E1F9F000EF68C /* AppDelegate.swift in Sources */,
-				94D7AB8E1F2E2242000EF68C /* RecordWhistleViewController.swift in Sources */,
+				94EA450B1F313715003E2034 /* ViewController.swift in Sources */,
+				94EA45151F313728003E2034 /* AddCommentsViewController.swift in Sources */,
+				94EA450A1F313715003E2034 /* AppDelegate.swift in Sources */,
+				94EA45141F313728003E2034 /* SelectGenreViewController.swift in Sources */,
+				94EA45191F313728003E2034 /* MyGenresViewController.swift in Sources */,
+				94EA45171F313728003E2034 /* Whistle.swift in Sources */,
+				94EA45161F313728003E2034 /* SubmitViewController.swift in Sources */,
+				94EA45131F313728003E2034 /* RecordWhistleViewController.swift in Sources */,
+				94EA45181F313728003E2034 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
